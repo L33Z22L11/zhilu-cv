@@ -9,11 +9,11 @@
 }
 
 :root {
+	overflow-wrap: break-word;
 	font-family: InterVariable, "Noto Sans SC", system-ui, sans-serif;
-	font-variant-alternates: styleset(open-digits, disambiguation, round-quotes-and-commas);
 	line-height: 1.4;
-	word-wrap: break-word;
 	color-scheme: light dark;
+	font-variant-alternates: styleset(open-digits, disambiguation, round-quotes-and-commas);
 
 	@media screen {
 		// 210mm - 2 * 10mm - 2 * ((print:p2 - p6) / 4)rem

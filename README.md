@@ -47,7 +47,7 @@ pnpm dev
 2. 推荐安装 [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) VS Code插件
 3. 使用方式：
    ```vue
-   <NuxtIcon name="图标集合:图标名" />
+   <Nuxt name="图标集合:图标名" />
    ```
 4. 技术栈图标需在 `utils/icon.ts` 中添加映射关系
 
